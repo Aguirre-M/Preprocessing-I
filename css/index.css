@@ -133,4 +133,89 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  line-height: 1.25;
+  font-size: 1.8rem;
+}
+/* Variables */
+.container {
+  width: 880px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+.container header {
+  border-bottom: 1 px solid black;
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 500px) {
+  .container header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container header nav {
+  margin-left: 62px;
+}
+@media (max-width: 500px) {
+  .container header nav {
+    margin-left: 0;
+  }
+}
+.container header nav a {
+  color: gray;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 1.8rem;
+}
+.container .top {
+  background: #e9ebef;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.container .top .title {
+  margin: 10px 0;
+}
+.container .top .title img {
+  margin-bottom: 15px;
+}
+.container .top .title h1 {
+  margin-bottom: 10px;
+  font-size: 5rem;
+}
+.container .top .title h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.container .top .title-paragraph {
+  margin: 15px 0;
+  margin-right: 30px;
+  border-top: 1px #d1d3d5 solid;
+}
+.container .top .title-paragraph p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.container .top .title-paragraph button {
+  margin-top: 10px;
+  background: #7f7f7f;
+  color: white;
+  border-radius: 5px;
+  font-size: 2.2rem;
+  padding: 5px;
 }
