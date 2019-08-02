@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>My Resume</title>
 
@@ -13,7 +14,81 @@
   <![endif]-->
 </head>
 
-<body>
-  <h1>My Resume</h1>
+<body class="container">
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="top">
+    <div class="title">
+      <img src="close-up-code-coding-160107.jpg" alt="close up of code snippet" height="300" width="320">
+      <h1>Jonny Appleseed - Web Dev</h1>
+      <h3>Technology is my jam!</h3>
+    </div>
+    <div class="title-paragraph">
+      <p>Occasionally I have time to work on side projects, if you're interested, let me know by signing up on this website.</p>
+      <button>Let's Team Up</button>
+    </div>  
+  </section>
+
+  <section class="middle">
+    <div class="box" id="box1">
+      <h1>Listen Up...</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatibus eos, similique repudiandae vero consectetur dolore nulla sit sunt alias corrupti dolor laborum a aliquam dolores doloribus unde ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at repellat aperiam vitae molestiae iste, atque quas fugiat cupiditate nulla ullam distinctio voluptas ab maiores debitis, numquam vero excepturi eum.</p>
+    </div>
+    <div class="box" id="box2">
+      <h1>Stuff I'm Good At:</h1>
+      <ul>
+        <li>Disc Golf</li>
+        <li>Coding up UI</li>
+        <li>Playing lots of video games</li>
+        <li>Using bootstrap grid</li>
+        <li>Taking long naps</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bottom">
+    <h1>Work History</h1>
+      <table>
+          <tr class="table-header">
+            <th>Yrs</th>
+            <th>Company</th>
+            <th>Title</th>
+            <th>Tech Used</th>
+          </tr>
+          <tr class="exp" id="exp1">
+            <td>1</td>
+            <td>Apple</td>
+            <td>Software Engineer</td>
+            <td>Swift</td>
+          </tr>
+          <tr class="exp">
+            <td>2</td>
+            <td>Microsoft</td>
+            <td>Computer Scientist</td>
+            <td>.NET</td>
+          </tr>
+          <tr class="exp" id="exp1">
+            <td>3</td>
+            <td>Amazon</td>
+            <td>Dev Ops</td>
+            <td>AWS</td>
+          </tr>
+        </table>
+  </section>
+  <contact> 
+    <h1>Contact</h1>
+    <p>Michael Aguirre</p>
+    <P>555-555-555</P>
+  </contact>
+  <footer>
+    <p>&copy; Copyright Awesomeness 2019</p>
+  </footer>
 </body>
 </html>
