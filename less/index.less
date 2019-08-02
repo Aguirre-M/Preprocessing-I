@@ -80,17 +80,27 @@ p {
 @darker-gray: #d1d3d5;
 @charcoal: #7f7f7f;
 
+/* Mixin */
+.display {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.font-size {
+	font-size: 2rem;
+}
+
 .container {
 	width: 880px;
 	margin: 0 auto;
-	font-size: 1.6rem;
+	.font-size();
 
 	header {
 		border-bottom: 1 px solid black;
 		margin: 20px 0;
 		padding: 20px 0;
-		display: flex;
-		justify-content: flex-end;
+		
+		.display();
 
 		@media (max-width: 500px) {
 			flex-direction: column;
@@ -178,18 +188,26 @@ p {
 				list-style: square;
 			}
 		}
+
+		#box1 {
+			margin-right: 50px;
+		}
+
+		#box2 {
+			margin-right: -135px;
+			margin-left: 65px;
+		}
 	}
 
 	.bottom {
 		margin-top: 10px;
 
 		h1{
-			font-weight: bold;
-			font-size: 2rem;
+			font-size: 2.5rem;
 		}
 		table {
 			width: 100%;
-			margin-top: 15px;
+			margin-top: 5px;
 		
 			.table-header {
 				border-top: @gray 2px solid;

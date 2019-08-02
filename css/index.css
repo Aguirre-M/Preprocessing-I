@@ -233,16 +233,22 @@ p {
 .container .middle .box ul {
   list-style: square;
 }
+.container .middle #box1 {
+  margin-right: 50px;
+}
+.container .middle #box2 {
+  margin-right: -135px;
+  margin-left: 65px;
+}
 .container .bottom {
   margin-top: 10px;
 }
 .container .bottom h1 {
-  font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .container .bottom table {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .container .bottom table .table-header {
   border-top: #e9ebef 2px solid;
