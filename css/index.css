@@ -251,6 +251,7 @@ p {
 }
 .container .bottom table .exp {
   font-size: 1.8rem;
+  text-align: center;
 }
 .container .bottom table #exp1 {
   background: #e9ebef;
