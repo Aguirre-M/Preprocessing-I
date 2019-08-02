@@ -186,7 +186,7 @@ p {
   margin-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 .container .top .title {
   margin: 10px 0;
@@ -216,6 +216,35 @@ p {
   background: #7f7f7f;
   color: white;
   border-radius: 5px;
-  font-size: 2.2rem;
-  padding: 5px;
+  font-size: 2rem;
+  padding: 10px;
+}
+.container .middle {
+  display: flex;
+}
+.container .middle .box {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.container .middle .box #box1 {
+  margin-right: 5px;
+}
+.container .bottom table {
+  width: 100%;
+}
+.container .bottom table .table-header {
+  border-top: #e9ebef 2px solid;
+  border-bottom: #e9ebef 2px solid;
+  font-size: 2.5rem;
+}
+.container .bottom table .exp {
+  font-size: 1.8rem;
+}
+.container .bottom table #exp1 {
+  background: #e9ebef;
+}
+.container .bottom table th,
+.container .bottom table td {
+  padding: 10px;
+  margin: 10px;
 }
