@@ -158,33 +158,43 @@ p {
 				border-radius: 5px;
 				font-size: 2rem;
 				padding: 10px;
+
+				&:hover {
+					background: white;
+					color: black;
+				}
 			}
 		}
 	}
 
 	.middle {
 		display: flex;
+
 		.box {
 			margin-bottom: 20px;
 			width: 100%;
-		
-			#box1 {
-			margin-right: 5px;
+
+			ul {
+				list-style: square;
 			}
 		}
-
-		
-		
 	}
 
 	.bottom {
+		margin-top: 10px;
+
+		h1{
+			font-weight: bold;
+			font-size: 2rem;
+		}
 		table {
 			width: 100%;
+			margin-top: 15px;
 		
 			.table-header {
 				border-top: @gray 2px solid;
 				border-bottom: @gray 2px solid;
-				font-size: 2.5rem;
+				font-size: 2rem;
 			}
 			.exp {
 				font-size: 1.8rem;
@@ -200,5 +210,16 @@ p {
 		
 			}
 		}
+	}
+
+	footer {
+		background: @charcoal;
+		text-align: center;
+		color: white;
+		font-size: 1.8rem;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 }
